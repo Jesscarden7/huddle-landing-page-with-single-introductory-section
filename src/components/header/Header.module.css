@@ -1,0 +1,11 @@
+.logoContainer img {
+  width: 10%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 376px) {
+  .logoContainer img {
+    width: 50%;
+  }
+}

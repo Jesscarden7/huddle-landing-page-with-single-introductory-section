@@ -1,0 +1,39 @@
+.footerContainer {
+  display: flex;
+  justify-content: end;
+  margin-right: 45px;
+}
+
+.iconContainer {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.iconContainer:hover {
+  border: 1px solid hsl(300, 69%, 71%);
+  color: hsl(300, 69%, 71%);
+
+}
+
+.icons {
+  color: white;
+}
+
+.icons:hover {
+  color: hsl(300, 69%, 71%);
+}
+
+@media (max-width: 376px) {
+  .footerContainer {
+    justify-content: center;
+    margin-right: unset;
+    margin-top: 35px
+  }
+}

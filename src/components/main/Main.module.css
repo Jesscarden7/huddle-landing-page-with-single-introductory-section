@@ -1,0 +1,91 @@
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgContainer {
+  width: 50%;
+}
+
+.imgContainer img {
+  width: 95%;
+}
+
+.registerContainer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: 1.5;
+  width: 48%;
+  padding-top: 40px;
+}
+
+.registerContainer h2 {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.registerContainer p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  word-spacing: 4.5px;
+  margin-bottom: 20px;
+}
+
+.registerContainer button {
+  font-family: "Open Sans", sans-serif;
+  width: 23%;
+  color: hsl(257, 34%, 51%);
+  border-radius: 23px;
+  height: 9%;
+  border: none;
+  box-shadow: 2px 2px 6px 0px hsl(0, 2%, 10%, 0.75);
+  font-size: 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.registerContainer button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: hsl(0, 0%, 100%);
+}
+
+@media (max-width: 376px) {
+  .mainContainer {
+    flex-direction: column;
+  }
+
+  .imgContainer {
+    width: 100%;
+  }
+
+  .imgContainer img {
+    width: 100%;
+  }
+
+  .registerContainer {
+    width: 100%;
+    align-items: center;
+  }
+
+  .registerContainer h2 {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .registerContainer p {
+    text-align: center;
+    font-size: 16px;
+    word-spacing: unset;
+    margin-bottom: 27px;
+  }
+
+  .registerContainer button {
+    width: 75%;
+    height: 45px;
+  }
+}
